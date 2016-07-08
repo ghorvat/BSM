@@ -1,0 +1,70 @@
+// Hello
+
+
+@mixin gradient-radial($inner-color: #555, $outer-color: #333) {
+  background-image: -webkit-radial-gradient(circle, $inner-color, $outer-color);
+  background-image: radial-gradient(circle, $inner-color, $outer-color);
+  background-repeat: no-repeat;
+}
+
+$olive:#30393e;
+$bsmGreen: #93b5b2;
+$smallCaption: 22px;
+$bigCaption: 64px;
+$grey-color:#373b40;
+
+
+.container.olive-color {
+  background: $olive;
+  body, table.body, p, td, th {
+    vertical-align: middle;
+  }
+
+  .line-height-big {
+    p, td, th {
+      line-height: 56px;
+
+    }
+
+  }
+}
+
+.bsm-green {
+  color: $bsmGreen;
+}
+
+.white {
+  color: #fff;
+}
+
+
+.small-caption {
+  font-size: $smallCaption;
+}
+.big-caption {
+  font-size: $bigCaption;
+}
+
+
+
+.container {
+  tr {
+    td {
+      th {
+        padding: 0;
+        p {
+          margin: 0;
+        }
+
+      }
+    }
+  }
+}
+
+.center {
+  text-align: center;
+}
+
+.grey-color {
+  color:$grey-color;
+}
