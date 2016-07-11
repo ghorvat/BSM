@@ -92,8 +92,29 @@ $grey-color:#373b40;
 
 
 .large-0 {
-  width: 3% !important;
+  margin: 0 auto !important;
+  color: #0a0a0a !important;
+  font-family: Helvetica,Arial,sans-serif !important;
+  font-size: 16px !important;
+  font-weight: 400 !important;
+  line-height: 15px !important;
+  padding: 0 !important;
+  text-align: left !important;
+  width: 5.33333% !important;
 }
+
+.choice {
+  table {
+    tr {
+      th {
+        padding-left:0;
+      }
+    }
+  }
+}
+
+
+
 
 h1,h2,h3,h4,h5,h6,span {
   font-family: 'Roboto Slab', serif;
@@ -113,4 +134,104 @@ table.bsm-green-background {
       font-size: 17px;
     }
   }
+}
+
+.paddingThirty {
+table {
+  tr {
+    th {
+      padding-left: 30px;
+      @media(max-width: 767px) {
+        padding:0 15px !important;
+      }
+    }
+  }
+}
+}
+
+.paddingFifteen {
+  table {
+    tr {
+      th {
+        padding-left: 15px;
+      }
+    }
+  }
+}
+
+.paddingBoth {
+  table {
+    tr {
+      th {
+        padding:0 15px;
+        @media(max-width: 767px) {
+          padding: 0;
+        }
+      }
+    }
+  }
+}
+
+
+.topBottomPadding {
+  table {
+    tr {
+      th {
+        padding-top:15px;
+        padding-bottom:15px;
+      }
+    }
+  }
+}
+
+.socials {
+  table {
+    tr {
+      th {
+        padding-top:10px;
+      }
+    }
+  }
+}
+
+.vert {
+  table {
+    tr {
+      th {
+      vertical-align: middle;
+        }
+      }
+    }
+  }
+
+
+
+  @media(max-width: 767px) {
+    .mob {
+    margin: 0 auto;
+      display: block;
+  }
+    .center-mobile {
+      text-align: center !important;
+    }
+        .hidden-mobile {
+          display: none !important;
+          padding: 0 !important;
+        }
+    .mob-pad {
+      table {
+        tr {
+          th {
+            padding-top: 15px !important;
+          }
+        }
+      }
+    }
+
+    .facebook,.twitter, .pinterest {
+      img {
+        margin: 0 auto;
+      }
+    }
+
 }
