@@ -1459,3 +1459,6 @@ table.bsm-green-background {
     padding-top: 15px !important; }
   .facebook img, .twitter img, .pinterest img {
     margin: 0 auto; } }
+
+.customRightPadding table tr th {
+  padding-right: 30px; }

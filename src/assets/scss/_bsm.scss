@@ -236,3 +236,13 @@ table {
 
 
 }
+
+.customRightPadding {
+  table {
+    tr {
+      th {
+        padding-right: 30px;
+      }
+    }
+  }
+}
